@@ -1,0 +1,5 @@
+Id,Name,Set_of_Attrdeps,Set_of_Methoddeps
+0,simple.VH,"{attrDeps:{simple.VK:1}}","{methodDeps:{simple.VK:1}}"
+1,simple.VK,"{attrDeps:{simple.VL:2}}","{methodDeps:{simple.VL:2}}"
+2,simple.VL,"{attrDeps:{simple.VH:1,simple.VM:1}}","{methodDeps:{simple.VH:1,simple.VM:1}}"
+3,simple.VM,null,null

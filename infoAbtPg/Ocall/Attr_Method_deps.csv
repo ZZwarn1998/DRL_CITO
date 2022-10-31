@@ -1,0 +1,15 @@
+Id,Name,Set_of_Attrdeps,Set_of_Methoddeps
+12,call.VB,"{attrDeps:{call.VA:1}}","{methodDeps:{call.VA:1}}"
+13,call.VC,"{attrDeps:{call.VA:1}}","{methodDeps:{call.VA:1}}"
+6,call.VD,"{attrDeps:{call.VA:1}}","{methodDeps:{call.VA:2}}"
+7,call.VE,null,null
+11,call.VN,null,null
+8,call.VL,null,null
+9,call.VM,null,null
+0,call.VA,"{attrDeps:{call.VG:1}}","{methodDeps:{call.VG:2}}"
+10,call.VK,null,null
+4,call.VF,"{attrDeps:{call.VE:1}}","{methodDeps:{call.VE:1}}"
+5,call.VJ,null,null
+1,call.VG,"{attrDeps:{call.VH:1,call.VI:1,call.VF:1,call.VJ:1,call.VD:1,call.VE:1}}","{methodDeps:{call.VH:2,call.VI:2,call.VF:2,call.VJ:1,call.VD:1,call.VE:2}}"
+2,call.VH,"{attrDeps:{call.VI:1,call.VL:1,call.VM:1,call.VK:1,call.VN:1}}","{methodDeps:{call.VI:1,call.VL:1,call.VM:1,call.VK:1,call.VN:1}}"
+3,call.VI,null,null

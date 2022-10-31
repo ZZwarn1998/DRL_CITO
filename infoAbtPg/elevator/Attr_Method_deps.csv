@@ -1,0 +1,13 @@
+Id,Name,Set_of_Attrdeps,Set_of_Methoddeps
+3,newSim.ElevatorController,"{attrDeps:{newSim.Floor:1,newSim.Person:2,newSim.Logger:1,newSim.Elevator:4,newSim.ElevatorState:1}}","{methodDeps:{newSim.Floor:15,newSim.Person:2,newSim.Logger:27,newSim.Elevator:33}}"
+6,newSim.ElevatorState,null,null
+0,newSim.Building,"{attrDeps:{newSim.Floor:2,newSim.ElevatorController:1,newSim.ElevatorState:1}}","{methodDeps:{newSim.Floor:2,newSim.Elevator:2,newSim.ElevatorController:7}}"
+10,newSim.PersonState,null,null
+11,newSim.Simulator,null,"{methodDeps:{newSim.Building:2,newSim.Person:4}}"
+2,newSim.Elevator,"{attrDeps:{newSim.Person:2,newSim.Logger:1,newSim.ElevatorController:2,newSim.ElevatorState:1}}","{methodDeps:{newSim.Person:1,newSim.ElevatorMovingException:2,newSim.Logger:24,newSim.ElevatorState:2,newSim.DoorClosedException:2,newSim.ElevatorFullException:1,newSim.ElevatorController:1}}"
+5,newSim.ElevatorMovingException,null,null
+1,newSim.DoorClosedException,null,null
+4,newSim.ElevatorFullException,null,null
+7,newSim.Floor,"{attrDeps:{newSim.Person:3,newSim.Logger:1,newSim.Elevator:2,newSim.ElevatorController:2}}","{methodDeps:{newSim.Person:9,newSim.Logger:9,newSim.Elevator:2,newSim.ElevatorController:2}}"
+8,newSim.Logger,null,null
+9,newSim.Person,"{attrDeps:{newSim.Building:2,newSim.PersonState:1,newSim.Floor:1,newSim.Logger:1,newSim.Elevator:2}}","{methodDeps:{newSim.PersonState:2,newSim.Building:3,newSim.Floor:10,newSim.Logger:4,newSim.Elevator:9}}"

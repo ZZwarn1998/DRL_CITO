@@ -1,0 +1,9 @@
+Id,Name,Set_of_Attrdeps,Set_of_Methoddeps
+0,test.A,"{attrDeps:{test.G:1}}","{methodDeps:{test.G:2}}"
+4,test.E,null,null
+5,test.D,"{attrDeps:{test.A:2}}",null
+6,test.B,"{attrDeps:{test.A:1}}","{methodDeps:{test.A:2}}"
+7,test.C,"{attrDeps:{test.A:1}}","{methodDeps:{test.A:2}}"
+1,test.G,"{attrDeps:{test.A:1,test.H:1,test.F:1,test.E:1,test.D:1}}","{methodDeps:{test.A:2,test.H:2,test.F:1,test.E:1,test.D:2}}"
+2,test.H,null,null
+3,test.F,"{attrDeps:{test.E:1}}","{methodDeps:{test.E:1}}"
